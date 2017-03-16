@@ -1,0 +1,91 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/purple_linear_gradient_background"
+    tools:context="com.tainguyenbui.techsprint.lastTransaction.LastTransactionFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/last_payment_card_background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.85"
+            android:background="@color/background_white"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/two_hundred_degrees_logo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/transaction_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="£1.50"
+                    android:textSize="48sp" />
+
+                <TextView
+                    android:id="@+id/merchant_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="200 Degrees Coffee Shop"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/transaction_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Wednesday 28th September"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/transaction_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Eating out"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_white">
+
+            <Button
+                android:id="@+id/approve_transaction_button"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Approve Transaction"
+                android:textColor="@color/text_body_colour" />
+
+            <Button
+                android:id="@+id/decline_transaction_button"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/approve_transaction_button"
+                android:text="Decline Transaction"
+                android:textColor="@color/text_body_colour" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

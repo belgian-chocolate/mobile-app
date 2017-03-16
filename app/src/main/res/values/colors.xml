@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#caccd4</color>
+    <color name="colorPrimaryDark">#999a9e</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="background_purple">#3023AE</color>
+    <color name="background_purple_TODO">#c96dd8</color>
+
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_home">#2A2A2A</color>
+
+    <color name="text_body_colour">#003366</color>
+
+    <color name="divider">#979797</color>
+
+</resources>
