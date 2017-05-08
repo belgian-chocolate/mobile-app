@@ -39,7 +39,7 @@ public class OverspendFragment extends Fragment {
 
         ButterKnife.bind(this, view);
 
-        webView.loadUrl("https://responsivebanking.github.io/web-tasks/overspend.html");
+        webView.loadUrl("https://belgian-chocolate.github.io/web-tasks/overspend.html");
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
 

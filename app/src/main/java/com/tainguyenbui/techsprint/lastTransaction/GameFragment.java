@@ -57,7 +57,7 @@ public class GameFragment extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        webView.loadUrl("https://responsivebanking.github.io/web-tasks/game.html");
+        webView.loadUrl("https://belgian-chocolate.github.io/web-tasks/game.html");
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
 
